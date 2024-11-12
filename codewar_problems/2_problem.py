@@ -5,9 +5,7 @@ Example: (Input --> Output)
 
 "Dermatoglyphics" --> true
 "aba" --> false
-"moOse" --> false (ignore letter case)
-StringsFundamentals
-Earn extra honor and gain'''
+"moOse" --> false (ignore letter case)'''
   word= "Hello"
   list_word=[]
   for letter in word:
