@@ -6,13 +6,15 @@ We will consider a, e, i, o, u as vowels for this Kata (but not y).
 The input string will only consist of lower case letters and/or spaces.'''
   sentence= "Hello, How are you?"
   sentence= sentence.lower()
+  vowels= ["a","e","i","o","u"]
+  counter=0
 
-  counter_a= sentence.count("a")
-  counter_e= sentence.count("e")
-  counter_i= sentence.count("i")
-  counter_o= sentence.count("o")
-  counter_u= sentence.count("u")
-  counter= counter_a+counter_e+counter_i+counter_o+counter_u
-  return counter
+  for letter in sentence:
+    if letter in vowels:
+      counter+=1
+    else:
+      pass
+      
+  print(counter)
 
-print(solution())
+solution()
